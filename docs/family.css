@@ -1,0 +1,164 @@
+body {
+    text-align: center;
+}
+
+.heading img {
+    width: 100px;
+    height: 80px;
+    float: right;
+    position:relative;
+    
+}
+
+.wrapper {
+    width: 1200px;
+    background-color: grey;
+    height: 1000px;
+    margin: 0 auto 0 auto;
+}
+
+
+
+.heading h1 {
+    position: fixed;
+    text-align: center;
+    
+}
+
+
+.heading {
+    height: 60px;
+    padding: 20px;
+  
+    text-align: center;
+    color: whitesmoke;
+    
+    font-family: Comic Sans MS  ;
+    font-feature-settings: normal;
+    font-size-adjust: none;
+}
+
+.navigation {
+    height: 50px;
+    font-stretch: semi-condensed;
+    background-color: grey;
+     background-color: -webkit-linear-gradient(red, blue);
+    vertical-align: middle;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navigation li {
+    list-style-type: none;
+    float: left;
+    display: block;
+    width: 200px;
+    height: 50px;
+    
+    color: grey;
+    background-color: grey;
+    font-size: 16px;
+}
+
+.ufooter {
+    width: 1200px;
+    height: 0px;
+    clear: both;
+}
+
+.loo {
+    width: 175px;
+    height: 30px;
+}
+
+.ufooter ul {
+    margin: 0;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ufooter ul li ul {
+    display: block;
+    list-style-type: none;
+    width: 2px;
+    height: 20px;
+    font-family: fantasy;
+    color: black;
+    float: right;
+}
+
+.ufooter li {
+    list-style-type: none;
+    float: left;
+    display: block;
+    width: 360px;
+    height: 50px;
+    font-family: sans-serif;
+    color: whitesmoke;
+    background-color: grey;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.content p { 
+        text-align: center;
+}
+
+.content {
+    text-align: center;
+    position: relative;
+    background: #ddd;
+    width: 1200px;
+    float: left;
+    height: 700px;
+    color: cornflowerblue;
+    font-family: Lucida Handwriting;
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: center;
+}
+
+.content button {
+    box-sizing: padding-box;
+    width: 150px;
+    height:  50px;
+    margin-top: 50px;;
+    outline-offset: inherit;
+    background-color: teal;
+    background-image: url(media/border/app-net.png);
+    background-repeat: no-repeat;
+    border-image-width: 20px;
+    
+    font-size: 20px;
+}
+.sidebar {
+    width: 200px;
+    float: right;
+    background-color: lightblue;
+    min-height: 400px;
+}
+
+.dfooter {
+    clear: both;
+    background: black;
+    height: 40px;
+    color: slategrey;
+    text-align: left;
+    padding: 10px;
+}
+
